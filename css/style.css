@@ -20,6 +20,7 @@ html {
 body {
     font-family: 'Karla', sans-serif;
     font-size: 1.6rem;
+    font-weight: 400;
 }
 #header {
     padding: 2.5rem 0;
@@ -38,4 +39,76 @@ body {
 .nav-item .nav-link {
     color: var(--text-color-bold);
     font-weight: 700;
+}
+#hero {
+    padding: 8rem 0;
+}
+.hero-text {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-text h5 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    line-height: 1.8rem;
+}
+
+.hero-text h1 {
+    font-size: 7rem;
+    color: var(--text-color-bold);
+    font-weight: 700;
+    line-height: 7rem;
+    margin: 2rem 0;
+}
+.hero-text p {
+    width: 520px;
+    margin: 2rem auto;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    letter-spacing: -0.4px;
+    color: var(--text-color);
+}
+.hero-text form input {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.hero-text form button {
+    font-size: 2rem;
+    margin-top: -5px;
+    background: #FC593B;
+    color: #fff;
+    font-weight: 700;
+}
+#about {
+    background-color: var(--bg-color);
+    padding: 8rem 0;
+}
+#about .card {
+    border: none;
+    background-color: transparent;
+}
+#about .card .icon {
+    text-align: right;
+    padding: 1rem;
+}
+#about .card .icon i {
+    font-size: 3.6rem;
+}
+#about .card-body .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color-bold);
+    line-height: 3.2rem;
+}
+#about .card-body .card-text {
+    
+    color: var(--text-color);
 }
