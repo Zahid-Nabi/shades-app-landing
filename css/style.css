@@ -41,12 +41,13 @@ body {
     font-weight: 700;
 }
 #hero {
-    padding: 8rem 0;
+    padding-top: 8rem;
 }
 .hero-text {
-    max-width: 640px;
+    max-width: 665px;
     margin: 0 auto;
     text-align: center;
+    padding: 0 1.5rem;
 }
 .hero-text h5 {
     font-size: 1.5rem;
@@ -65,7 +66,7 @@ body {
     margin: 2rem 0;
 }
 .hero-text p {
-    width: 520px;
+    max-width: 520px;
     margin: 2rem auto;
     font-size: 2rem;
     line-height: 3.6rem;
@@ -89,7 +90,7 @@ body {
 }
 #about {
     background-color: var(--bg-color);
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 #about .card {
     border: none;
@@ -101,6 +102,7 @@ body {
 }
 #about .card .icon i {
     font-size: 3.6rem;
+    color: #258AFF;
 }
 #about .card-body .card-title {
     font-size: 2rem;
@@ -111,4 +113,42 @@ body {
 #about .card-body .card-text {
     
     color: var(--text-color);
+}
+#presentation-one {
+    background-color: #258AFF;
+    padding: 2rem 0;
+}
+.app-img {
+    text-align: center;
+}
+.app-img img {
+    width: 75%;
+}
+.app-text {
+    color: #fff;
+}
+.app-text h5 {
+    font-weight: 700;
+    line-height: 1.8rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.app-text h2 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+}
+.app-text p {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    color: #E4E4E4;
+    margin-top: 1.6rem;
+}
+.app-text button {
+    background: #fff;
+    color: #258AFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 5rem;
 }

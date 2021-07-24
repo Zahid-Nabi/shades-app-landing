@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+    #about {
+        padding: 2rem 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #hero {
+        padding: 4rem 0;
+    }
+    #header form input {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #header form button {
+        width: 100%;
+    }
+    
+    #about .card,
+    #about .card .icon {
+        text-align: center;
+    }
+    
+
+}
