@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Rubik', sans-serif; */
+:root {
+    --bg-color: #E3EEF8;
+    --text-color-bold: #1F1F1F;
+    --text-color: #666666;
+}
+html {
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
+#header {
+    padding: 2.5rem 0;
+    background: var(--bg-color);
+}
+.navbar .button button {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    margin-right: 2rem;
+}
+.navbar-nav {
+    margin-top: 5px;
+}
+.nav-item .nav-link {
+    color: var(--text-color-bold);
+    font-weight: 700;
+}
