@@ -21,10 +21,10 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
+    background-color: var(--bg-color);
 }
 #header {
     padding: 2.5rem 0;
-    background: var(--bg-color);
 }
 .navbar .button button {
     font-size: 1.6rem;
@@ -89,7 +89,6 @@ body {
     font-weight: 700;
 }
 #about {
-    background-color: var(--bg-color);
     padding: 6rem 0;
 }
 #about .card {
@@ -116,7 +115,7 @@ body {
 }
 #presentation-one {
     background-color: #258AFF;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 .app-img {
     text-align: center;
@@ -124,31 +123,39 @@ body {
 .app-img img {
     width: 75%;
 }
-.app-text {
-    color: #fff;
-}
+
 .app-text h5 {
     font-weight: 700;
-    line-height: 1.8rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    margin-bottom: 5rem;
 }
 .app-text h2 {
     font-weight: 700;
     font-size: 4.8rem;
-    line-height: 5.6rem;
+    line-height: 1;
 }
 .app-text p {
     font-size: 1.8rem;
-    line-height: 3.2rem;
     color: #E4E4E4;
-    margin-top: 1.6rem;
 }
 .app-text button {
     background: #fff;
     color: #258AFF;
     font-size: 1.6rem;
     font-weight: 700;
-    margin-top: 5rem;
+}
+#presentation-two {
+    padding: 10rem 0;
+}
+#presentation-two .building {
+    max-width: 32.5rem;
+}
+#presentation-two .feature-text .icon {
+    width: 6rem;
+    height: 6rem;
+}
+#presentation-two .feature-text .icon i {
+    font-size: 3rem;
+}
+#testimonial {
+    padding: 10rem 0;
 }
